@@ -21,3 +21,10 @@ const findVowel = (str) => {
     return item.match(/[aeiou]/i);
   }).join('');
 }
+
+// delete numbers from string
+const deleteNumbers = (str) => {
+    return str.split('').filter((item) => {
+        return !item.match(/[0-9]/);
+    }).join('');
+}
