@@ -8,12 +8,7 @@ const trimString = (str) => {
   return str.trim();
 }
 
-// remove duplicate chars from a single string
-const removeDuplicateString = (str) => {
-  return str.split('').filter((item, index) => {
-    return str.indexOf(item) === index;
-  }).join('');
-}
+// TODO: remove duplicate chars from a single string
 
 // find vowel in string
 const findVowel = (str) => {
